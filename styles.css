@@ -1,20 +1,19 @@
-td{
-	border:1px solid #ccc;
-	border-radius:5px;
-	padding:0,5rem;
-}
-th{
-	border:1px solid #ccc;
-	border-radius:5px;
-	padding:0,5rem;
-}
-.even
-{
-	background-color:#ffffff;
-}
-.odd
-{
-	background-color:#f2f2f2;
-}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20px;
+  }
 
+  td, th {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+  }
 
+  .even {
+    background-color: #ffffff;
+  }
+
+  .odd {
+    background-color: #f2f2f2;
+  }
